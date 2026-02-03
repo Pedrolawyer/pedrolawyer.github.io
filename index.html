@@ -3,24 +3,127 @@
 <head>
   <meta charset="UTF-8">
   <title>Pedro H V Aurélio Advocacia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
-    body { font-family: Arial; margin: 40px; background: #fff; color: #000; }
-    header { font-size: 28px; font-weight: bold; }
-    section { margin-top: 20px; }
+    body {
+      margin: 0;
+      font-family: "Times New Roman", serif;
+      background-color: #ffffff;
+      color: #000000;
+      line-height: 1.6;
+    }
+
+    header {
+      border-bottom: 1px solid #000;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    section h2 {
+      border-bottom: 1px solid #000;
+      padding-bottom: 10px;
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+
+    .areas ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .areas li {
+      padding: 8px 0;
+    }
+
+    footer {
+      border-top: 1px solid #000;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: 1px solid #000;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .btn:hover {
+      background: #000;
+      color: #fff;
+    }
   </style>
 </head>
+
 <body>
-  <header>Pedro H V Aurélio Advocacia</header>
 
-  <section>
-    <h2>Contato</h2>
-    <p>Email: contato@seudominio.com.br</p>
-    <p>WhatsApp: (XX) XXXXX-XXXX</p>
-  </section>
+<header>
+  <h1>Pedro H V Aurélio Advocacia</h1>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#areas">Área de Atuação</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
 
-  <section>
-    <h2>Sobre</h2>
-    <p>Atuação em consultoria jurídica e acordos extrajudiciais.</p>
-  </section>
+<section id="sobre">
+  <h2>Sobre o Escritório</h2>
+  <p>
+    Escritório de advocacia voltado à atuação estratégica, preventiva e contenciosa,
+    com foco em soluções jurídicas eficazes, segurança jurídica e atendimento personalizado.
+  </p>
+</section>
+
+<section id="areas" class="areas">
+  <h2>Área de Atuação</h2>
+  <ul>
+    <li>✔ Consultoria Jurídica</li>
+    <li>✔ Acordos Extrajudiciais</li>
+    <li>✔ Direito Imobiliário</li>
+    <li>✔ Elaboração e Análise de Contratos</li>
+  </ul>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Email: contato@seudominio.com.br</p>
+  <p>WhatsApp: (XX) XXXXX-XXXX</p>
+
+  <a class="btn" href="https://wa.me/55SEUNUMERO" target="_blank">
+    Falar pelo WhatsApp
+  </a>
+</section>
+
+<footer>
+  © 2026 – Pedro H V Aurélio Advocacia • OAB/PR 115.681
+</footer>
+
 </body>
 </html>
