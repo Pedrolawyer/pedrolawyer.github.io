@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedro H V Aurélio Advocacia</title>
+  <style>
+    body { font-family: Arial; margin: 40px; background: #fff; color: #000; }
+    header { font-size: 28px; font-weight: bold; }
+    section { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>Pedro H V Aurélio Advocacia</header>
+
+  <section>
+    <h2>Contato</h2>
+    <p>Email: contato@seudominio.com.br</p>
+    <p>WhatsApp: (XX) XXXXX-XXXX</p>
+  </section>
+
+  <section>
+    <h2>Sobre</h2>
+    <p>Atuação em consultoria jurídica e acordos extrajudiciais.</p>
+  </section>
+</body>
+</html>
